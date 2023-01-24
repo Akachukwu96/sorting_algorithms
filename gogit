@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
-read -p input "cmessage"
-git commit -m $cmessage
+read -p "input commit message": cmessage
+git commit -m "$cmessage"
 git push
